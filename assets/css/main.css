@@ -677,7 +677,7 @@ body {
 }
 
 .side-nav li.is-active {
-  color: #0f33ff;
+  color: red;
   -webkit-transition: color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
 }
@@ -743,7 +743,7 @@ body {
   left: 0;
   width: 30px;
   height: 4px;
-  background-color: #0f33ff;
+  background-color: red;
 }
 
 .intro--banner h1 {
@@ -1490,6 +1490,10 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
+}
+
+.hire h1 {
+  font-size: 50px;
 }
 
 @media (max-width: 1180px) {
