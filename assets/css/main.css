@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap");
 
 @font-face {
   font-family: "Montserrat";
@@ -518,7 +518,6 @@ body {
   margin: 0 0 0 10px;
   font-size: 48px;
   font-weight: 700;
-  /* text-transform: uppercase; */
   font-family: "Meow Script", cursive;
 }
 
@@ -1494,25 +1493,62 @@ body {
 }
 
 .hire h1 {
-  font-size: 50px;
+  font-size: 55px;
+}
+
+.test {
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 20%;
+}
+
+.test p {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.test .msg {
+  color: rgb(177, 177, 177);
+  font-size: 16px;
 }
 
 .content {
   color: white;
   font-size: 16px;
-  line-height: 38px;
-  position: absolute;
-  top: 30%;
-  left: 13%;
-  margin: 50px;
+  line-height: 42px;
+  margin: 50px 0 50px 0;
 }
 
 .content i {
   margin-right: 15px;
   font-size: 25px;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #0f33ff;
+  border-radius: 0.4em;
+  padding: 8px;
+  width: 170px;
+  margin-top: 30px;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 37px solid transparent;
+  border-top-color: #0f33ff;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -23px;
+  margin-bottom: -25px;
+}
+
+.speech-bubble p {
+  text-align: center;
 }
 
 @media (max-width: 1180px) {
