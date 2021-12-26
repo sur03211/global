@@ -1158,7 +1158,7 @@ body {
 
 .about--banner {
   position: relative;
-  height: 475px;
+  height: 400px;
 }
 
 .about--banner::before {
@@ -1541,6 +1541,7 @@ body {
   padding: 8px;
   width: 170px;
   margin-top: 30px;
+  height: 55px;
 }
 
 .speech-bubble:after {
