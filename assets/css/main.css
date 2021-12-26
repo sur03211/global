@@ -790,6 +790,8 @@ body {
   position: absolute;
   bottom: 21px;
   right: -12px;
+  width: 400px;
+  transform: rotate(5deg);
 }
 
 .intro--options {
