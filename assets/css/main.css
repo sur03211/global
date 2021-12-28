@@ -1535,13 +1535,22 @@ body {
 }
 
 .speech-bubble {
-  position: relative;
+  position: absolute;
   background: #0f33ff;
   border-radius: 0.4em;
   padding: 8px;
   width: 170px;
-  margin-top: 30px;
   height: 55px;
+  animation: motion 0.3s linear 0s infinite alternate;
+}
+
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 10px;
+  }
 }
 
 .speech-bubble:after {
@@ -1561,6 +1570,7 @@ body {
 
 .speech-bubble p {
   text-align: center;
+  margin: 0;
 }
 
 @media (max-width: 1180px) {
