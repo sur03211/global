@@ -942,7 +942,7 @@ body {
 
 .work h2 {
   margin: 0 0 20px 0;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -956,7 +956,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -990,7 +990,7 @@ body {
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -1037,7 +1037,7 @@ body {
 }
 
 .work--lockup .slider--item-center .slider--item-image {
-  width: 600px;
+  width: 300px;
   height: 300px;
 }
 
