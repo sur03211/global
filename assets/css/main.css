@@ -942,7 +942,7 @@ body {
 
 .work h2 {
   margin: 0 0 20px 0;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -990,12 +990,13 @@ body {
   width: 150px;
   height: 150px;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius: 5px;
   overflow: hidden;
 }
 
 .work--lockup .slider--item-image img {
   width: 100%;
+  background-color: rgb(226, 225, 225);
 }
 
 .work--lockup .slider--item-left {
@@ -1038,7 +1039,7 @@ body {
 
 .work--lockup .slider--item-center .slider--item-image {
   width: 300px;
-  height: 300px;
+  height: 225px;
 }
 
 .work--lockup .slider--next,
