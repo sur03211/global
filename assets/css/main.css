@@ -1541,6 +1541,10 @@ body {
   font-size: 25px;
 }
 
+.info {
+  margin-top: 35%;
+}
+
 .speech-bubble {
   position: absolute;
   background: #0f33ff;
@@ -1549,7 +1553,7 @@ body {
   width: 170px;
   height: 55px;
   animation: motion 0.3s linear 0s infinite alternate;
-  top: 30px;
+  top: 75px;
 }
 
 @keyframes motion {
@@ -1578,6 +1582,7 @@ body {
 
 .talk {
   text-align: center;
+  margin-top: 5px;
 }
 
 @media (max-width: 1180px) {
