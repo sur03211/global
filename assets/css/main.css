@@ -1503,6 +1503,7 @@ body {
 
 .hire h1 {
   font-size: 60px;
+  margin-bottom: 5px;
 }
 
 .test {
@@ -1521,7 +1522,7 @@ body {
 
 .test .msg {
   color: rgb(202, 202, 202);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .mini {
@@ -1542,7 +1543,7 @@ body {
 }
 
 .info {
-  margin-top: 35%;
+  margin-top: 40%;
 }
 
 .speech-bubble {
@@ -1553,7 +1554,7 @@ body {
   width: 170px;
   height: 55px;
   animation: motion 0.3s linear 0s infinite alternate;
-  top: 75px;
+  top: 85px;
 }
 
 @keyframes motion {
