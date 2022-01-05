@@ -1456,38 +1456,61 @@ body {
   font-size: 30px;
 }
 
-.contact--lockup .modal--options {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.skill {
+  color: black;
 }
 
-.contact--lockup .modal--options > li {
-  width: 130px;
-  margin: 0 auto 25px auto;
+.skillset {
+  display: flex;
+  color: black;
+  margin: 20px 0;
+  justify-content: end;
 }
 
-.contact--lockup .modal--options li:nth-child(1) {
-  background-color: #1769ff;
+.skillset__title {
+  color: black;
 }
 
-.contact--lockup .modal--options li:nth-child(2) {
-  background-color: #ea4c89;
+.skillset__left {
+  flex-basis: 60%;
+  background-color: firebrick;
+  padding: 20px 40px;
 }
 
-.contact--lockup .modal--options li:nth-child(3) {
-  margin-bottom: 0;
-  background-color: #0f33ff;
-  text-transform: uppercase;
+.skill {
+  margin-bottom: 30px;
 }
 
-.contact--lockup .modal--options a {
-  display: block;
+.skill__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill__bar {
   width: 100%;
-  padding: 8px 0;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 700;
+  height: 3px;
+  background-color: gray;
+}
+
+.skill__value {
+  height: 3px;
+  background-color: orange;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.js {
+  transform: rotate(-30deg) scale(1.1);
+}
+
+.java {
+  background-color: white;
+  color: white;
+  border-radius: 10px;
 }
 
 .hire {
