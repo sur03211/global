@@ -1423,7 +1423,6 @@ body {
 .contact--lockup .modal {
   padding: 45px 45px;
   text-align: center;
-  background-color: #4d4d4d;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1441,21 +1440,17 @@ body {
 
 .contact--lockup .modal--information h1,
 .contact--lockup .modal--information h2 {
-  /* color: black; */
+  color: black;
   margin: 0;
 }
 
 .contact--lockup .modal--information h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .contact--lockup .modal--information h2 {
   font-size: 30px;
 }
-
-/* .skill {
-  color: black;
-} */
 
 .skillset {
   display: flex;
@@ -1470,7 +1465,7 @@ body {
 
 .skillset__left {
   flex-basis: 60%;
-  background-color: firebrick;
+  background-color: #4d4d4d;
   padding: 20px 40px;
 }
 
