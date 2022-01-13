@@ -399,9 +399,12 @@ body {
 
 .device-notification--logo p {
   margin: 0 0 0 10px;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppe
+  rcase; */
+  font-family: "Meow Script", cursive;
+  font-weight: 700;
 }
 
 .device-notification--message {
@@ -1490,19 +1493,53 @@ body {
 }
 
 .icon {
+  position: absolute;
   width: 100px;
   height: 100px;
   margin: 10px;
 }
 
 .js {
-  transform: rotate(-30deg) scale(1.1);
+  top: 31%;
+  left: 23%;
+  transform: rotate(10deg);
 }
 
 .java {
-  background-color: white;
-  color: white;
   border-radius: 10px;
+  top: 70%;
+  left: 3%;
+  transform: rotate(-18deg);
+}
+
+.css {
+  top: 70%;
+  left: 25%;
+}
+
+.spring {
+  top: 50%;
+  left: 22%;
+}
+
+.ij {
+  top: 60%;
+  left: 13%;
+}
+
+.html {
+  top: 37%;
+  left: 12%;
+  width: 130px;
+  height: 130px;
+  transform: rotate(-10deg);
+}
+
+.android {
+  top: 30%;
+  left: 1%;
+  width: 130px;
+  height: 130px;
 }
 
 .hire {
