@@ -1500,7 +1500,7 @@ body {
 }
 
 .js {
-  top: 29%;
+  top: 31%;
   left: 23%;
   transform: rotate(10deg);
 }
@@ -1508,31 +1508,38 @@ body {
 .java {
   border-radius: 10px;
   top: 70%;
-  left: 8%;
-  transform: rotate(-30deg);
+  left: 3%;
+  transform: rotate(-18deg);
 }
 
 .css {
-  top: 75%;
+  top: 70%;
   left: 25%;
 }
 
 .spring {
-  top: 51%;
+  top: 50%;
   left: 22%;
 }
 
 .ij {
   top: 60%;
-  left: 12%;
+  left: 13%;
 }
 
 .html {
   top: 37%;
-  left: 10%;
+  left: 12%;
   width: 130px;
   height: 130px;
   transform: rotate(-10deg);
+}
+
+.android {
+  top: 30%;
+  left: 1%;
+  width: 130px;
+  height: 130px;
 }
 
 .hire {
