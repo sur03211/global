@@ -401,7 +401,8 @@ body {
   margin: 0 0 0 10px;
   font-size: 30px;
   font-weight: 700;
-  /* text-transform: uppercase; */
+  /* text-transform: uppe
+  rcase; */
   font-family: "Meow Script", cursive;
   font-weight: 700;
 }
@@ -1492,19 +1493,46 @@ body {
 }
 
 .icon {
+  position: absolute;
   width: 100px;
   height: 100px;
   margin: 10px;
 }
 
 .js {
-  transform: rotate(-30deg) scale(1.1);
+  top: 29%;
+  left: 23%;
+  transform: rotate(10deg);
 }
 
 .java {
-  background-color: white;
-  color: white;
   border-radius: 10px;
+  top: 70%;
+  left: 8%;
+  transform: rotate(-30deg);
+}
+
+.css {
+  top: 75%;
+  left: 25%;
+}
+
+.spring {
+  top: 51%;
+  left: 22%;
+}
+
+.ij {
+  top: 60%;
+  left: 12%;
+}
+
+.html {
+  top: 37%;
+  left: 10%;
+  width: 130px;
+  height: 130px;
+  transform: rotate(-10deg);
 }
 
 .hire {
