@@ -725,26 +725,6 @@ body {
   height: 475px;
 }
 
-/* .intro--banner::before {
-  content: "";
-  position: absolute;
-  bottom: 20px;
-  left: -15px;
-  right: 0;
-  height: 2px;
-  background-color: #282828;
-} */
-
-/* .intro--banner::after {
-  content: "";
-  position: absolute;
-  bottom: 18px;
-  left: 0;
-  width: 30px;
-  height: 4px;
-  background-color: red;
-} */
-
 .intro--banner h1 {
   position: relative;
   font-size: 68px;
@@ -945,7 +925,7 @@ body {
 
 .work h2 {
   margin: 0 0 20px 0;
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
 }
 
@@ -1508,7 +1488,7 @@ body {
 .java {
   border-radius: 10px;
   top: 70%;
-  left: 3%;
+  left: 4%;
   transform: rotate(-18deg);
 }
 
@@ -1519,12 +1499,12 @@ body {
 
 .spring {
   top: 50%;
-  left: 22%;
+  left: 23%;
 }
 
 .ij {
   top: 60%;
-  left: 13%;
+  left: 14%;
 }
 
 .html {
@@ -1540,6 +1520,11 @@ body {
   left: 1%;
   width: 130px;
   height: 130px;
+}
+
+.git {
+  top: 51%;
+  left: 4%;
 }
 
 .hire {
