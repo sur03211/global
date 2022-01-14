@@ -1558,13 +1558,30 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .skillset__left {
-    margin: auto;
-    width: 300px;
+  .skillset {
+    display: inline-block;
+    width: 450px;
   }
 
   .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .android,
+  .ij,
+  .js {
     display: none;
+  }
+
+  .css {
+    top: 85%;
+    margin-left: 25px;
+  }
+
+  .spring {
+    transform: rotate(-6deg);
+    top: 16%;
+    margin-left: 480px;
   }
 
   .modal {
