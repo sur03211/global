@@ -1567,9 +1567,11 @@ body {
     width: 70px;
     height: 70px;
   }
+
   .android,
   .ij,
-  .js {
+  .js,
+  .html {
     display: none;
   }
 
@@ -1584,6 +1586,10 @@ body {
     margin-left: 480px;
   }
 
+  .java {
+    top: 50%;
+  }
+
   .modal {
     padding: 10px;
   }
@@ -1594,6 +1600,42 @@ body {
 
   .contact--lockup .modal--information h2 {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .skillset {
+    display: inline-block;
+    width: 700px;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .android,
+  .ij,
+  .js,
+  .html,
+  .git {
+    display: none;
+  }
+
+  .css {
+    top: 86%;
+    left: 14%;
+  }
+
+  .spring {
+    transform: rotate(-6deg);
+    top: 18%;
+    left: 76%;
+  }
+
+  .java {
+    top: 86%;
+    left: 22%;
   }
 }
 
