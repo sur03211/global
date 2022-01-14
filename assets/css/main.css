@@ -1454,7 +1454,6 @@ body {
   display: block;
   margin: 14px 0;
   text-decoration: none;
-  /* color: #fff; */
   font-weight: 700;
 }
 
@@ -1474,14 +1473,9 @@ body {
 
 .skillset {
   display: flex;
-  /* color: black; */
   margin: 20px 0;
   justify-content: end;
 }
-
-/* .skillset__title {
-  color: black;
-} */
 
 .skillset__left {
   flex-basis: 60%;
@@ -1561,6 +1555,29 @@ body {
 .git {
   top: 51%;
   left: 6%;
+}
+
+@media screen and (max-width: 768px) {
+  .skillset__left {
+    margin: auto;
+    width: 300px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .modal {
+    padding: 10px;
+  }
+
+  .contact--lockup .modal--information h1 {
+    font-size: 35px;
+  }
+
+  .contact--lockup .modal--information h2 {
+    font-size: 25px;
+  }
 }
 
 .hire {
