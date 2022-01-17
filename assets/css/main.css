@@ -1518,8 +1518,10 @@ body {
 
 .js {
   top: 31%;
-  left: 23%;
+  left: 25%;
   transform: rotate(10deg);
+  width: 80px;
+  height: 80px;
 }
 
 .java {
@@ -1536,8 +1538,8 @@ body {
 }
 
 .spring {
-  top: 48%;
-  left: 22%;
+  top: 45%;
+  left: 23%;
 }
 
 .ij {
