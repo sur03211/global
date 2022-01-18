@@ -1133,7 +1133,12 @@ body {
   }
 
   .work--lockup .slider--item-center .slider--item-image {
-    width: 190px;
+    width: 200px;
+    height: 190px;
+    position: relative;
+  }
+
+  .work--lockup .slider--item-center .slider--item-image img {
     height: 190px;
   }
 
