@@ -1123,6 +1123,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  .work h2 {
+    font-size: 37px;
+  }
+
   .work--lockup .slider {
     width: 75%;
   }
@@ -1780,6 +1784,9 @@ body {
 @media (max-width: 1180px) {
   .hire {
     max-width: 100%;
+  }
+  .test {
+    position: unset;
   }
 }
 
