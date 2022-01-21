@@ -1438,12 +1438,6 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 1180px) {
-  .contact--lockup {
-    max-width: 90%;
-  }
-}
-
 @media (max-width: 767px) {
   .contact--lockup {
     -webkit-box-pack: center;
@@ -1454,13 +1448,12 @@ body {
 }
 
 .contact--lockup .modal {
-  padding: 45px 45px;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 1000px;
+  width: 110%;
 }
 
 .contact--lockup .modal--information a {
@@ -1556,57 +1549,16 @@ li {
   margin: 10px;
 }
 
-/* .js {
-  top: 31%;
-  left: 25%;
-  transform: rotate(10deg);
-  width: 80px;
-  height: 80px;
-} */
-
 .java {
   border-radius: 10px;
-  /* top: 80%;
-  left: -3%; */
-  top: 20%;
-  left: 91%;
+  top: 15%;
+  left: 94%;
   transform: rotate(-18deg);
 }
 
-.css {
-  top: 63%;
-  left: 25%;
-  transform: rotate(5deg);
-}
-
-.spring {
-  top: 46%;
-  left: 23%;
-}
-/* 
-.ij {
-  top: 58%;
-  left: 16%;
-} */
-
-/* .android {
-  top: 67%;
-  left: 6%;
-  width: 110px;
-  height: 110px;
-} */
-
-/* .git {
-  top: 51%;
-  left: 7%;
-} */
-
 .jquery {
-  top: 83%;
-  left: -1%;
-  /* background-color: white;
-  border-radius: 10px;
-  padding: 6px; */
+  top: 88%;
+  left: -6%;
   width: 80px;
   height: 80px;
   transform: rotate(6deg);
@@ -1656,11 +1608,12 @@ li {
 
 @media screen and (max-width: 1180px) {
   .skillset {
+    width: 80%;
+    margin: auto;
   }
 
   .icon {
-    width: 80px;
-    height: 80px;
+    display: none;
   }
 
   .java {
@@ -1673,6 +1626,13 @@ li {
     transform: rotate(1deg);
   }
 }
+/* 
+@media screen and (max-width: 928px) {
+  .skillset {
+    width: 900px;
+    margin: auto;
+  }
+} */
 
 .hire {
   position: fixed;
