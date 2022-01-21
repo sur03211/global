@@ -1489,13 +1489,18 @@ body {
 
 .skillset {
   display: flex;
+  background-color: #7e6868;
+  color: #eeeeee;
   margin: 20px 0;
-  justify-content: end;
+}
+
+.skillset__title {
+  color: white;
 }
 
 .skillset__left {
   flex-basis: 60%;
-  background-color: #4d4d4d;
+  background-color: #bdbdbd;
   padding: 20px 40px;
 }
 
@@ -1511,14 +1516,41 @@ body {
 .skill__bar {
   width: 100%;
   height: 3px;
-  background-color: gray;
+  background-color: #4d4d4d;
 }
 
 .skill__value {
   height: 3px;
-  background-color: orange;
+  background-color: #feb546;
 }
 
+.skillset__right {
+  flex-basis: 40%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.tools__list {
+  display: inline-block;
+}
+
+.tools {
+  background-color: #4d4d4d;
+  text-align: center;
+}
+
+.tools,
+.etc {
+  padding: 20px;
+}
+
+/* 아이콘 */
 .icon {
   position: absolute;
   width: 90px;
@@ -1526,20 +1558,18 @@ body {
   margin: 10px;
 }
 
-.js {
+/* .js {
   top: 31%;
   left: 25%;
   transform: rotate(10deg);
   width: 80px;
   height: 80px;
-}
+} */
 
 .java {
   border-radius: 10px;
-  top: 74%;
-  left: 17%;
-  /* top: 69%;
-  left: 8%;  */
+  top: 80%;
+  left: -3%;
   transform: rotate(-18deg);
 }
 
@@ -1553,24 +1583,18 @@ body {
   top: 46%;
   left: 23%;
 }
-
+/* 
 .ij {
   top: 58%;
   left: 16%;
-}
+} */
 
-.html {
-  top: 42%;
-  left: 15%;
-  transform: rotate(-10deg);
-}
-
-.android {
+/* .android {
   top: 67%;
   left: 6%;
   width: 110px;
   height: 110px;
-}
+} */
 
 .git {
   top: 51%;
