@@ -1415,10 +1415,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #dddacb;
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white; */
+  box-sizing: border-box;
 }
 
 .contact--lockup {
@@ -1496,6 +1493,7 @@ body {
 
 .skillset__title {
   color: white;
+  font-size: 18px;
 }
 
 .skillset__left {
@@ -1568,8 +1566,10 @@ li {
 
 .java {
   border-radius: 10px;
-  top: 80%;
-  left: -3%;
+  /* top: 80%;
+  left: -3%; */
+  top: 20%;
+  left: 91%;
   transform: rotate(-18deg);
 }
 
@@ -1596,17 +1596,17 @@ li {
   height: 110px;
 } */
 
-.git {
+/* .git {
   top: 51%;
   left: 7%;
-}
+} */
 
 .jquery {
-  top: 34%;
-  left: 6%;
-  background-color: white;
+  top: 83%;
+  left: -1%;
+  /* background-color: white;
   border-radius: 10px;
-  padding: 6px;
+  padding: 6px; */
   width: 80px;
   height: 80px;
   transform: rotate(6deg);
@@ -1618,31 +1618,27 @@ li {
     width: 450px;
   }
 
+  .skillset__left {
+    padding: 2px 40px;
+  }
+
+  .modal--information h1 {
+    display: none;
+  }
+
+  .tools,
+  .etc {
+    padding-top: 1px;
+  }
+
   .icon {
     width: 70px;
     height: 70px;
   }
 
-  .android,
-  .ij,
-  .js,
-  .html {
-    display: none;
-  }
-
-  .css {
-    top: 85%;
-    margin-left: 25px;
-  }
-
-  .spring {
-    transform: rotate(-6deg);
-    top: 16%;
-    margin-left: 480px;
-  }
-
   .java {
-    top: 50%;
+    top: 60%;
+    left: 27%;
   }
 
   .modal {
@@ -1660,8 +1656,6 @@ li {
 
 @media screen and (max-width: 1180px) {
   .skillset {
-    display: inline-block;
-    width: 700px;
   }
 
   .icon {
@@ -1669,28 +1663,14 @@ li {
     height: 80px;
   }
 
-  .android,
-  .ij,
-  .js,
-  .html,
-  .git {
-    display: none;
-  }
-
-  .css {
-    top: 86%;
-    left: 14%;
-  }
-
-  .spring {
-    transform: rotate(-6deg);
-    top: 18%;
-    left: 76%;
-  }
-
   .java {
-    top: 86%;
-    left: 22%;
+    top: 5%;
+  }
+
+  .jquery {
+    top: 88%;
+    left: 65%;
+    transform: rotate(1deg);
   }
 }
 
