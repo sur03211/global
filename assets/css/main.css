@@ -1062,6 +1062,10 @@ body {
   display: block;
 }
 
+/* .slider--item-description hr {
+  width: 200px;
+} */
+
 .work--lockup .slider--item-center .slider--item-image {
   position: relative;
   width: 300px;
@@ -1626,13 +1630,6 @@ li {
     transform: rotate(1deg);
   }
 }
-/* 
-@media screen and (max-width: 928px) {
-  .skillset {
-    width: 900px;
-    margin: auto;
-  }
-} */
 
 .hire {
   position: fixed;
