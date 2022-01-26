@@ -1062,10 +1062,6 @@ body {
   display: block;
 }
 
-/* .slider--item-description hr {
-  width: 200px;
-} */
-
 .work--lockup .slider--item-center .slider--item-image {
   position: relative;
   width: 300px;
@@ -1663,7 +1659,7 @@ li {
 
 .test {
   position: absolute;
-  top: 15%;
+  top: 18%;
   left: 20%;
 }
 
@@ -1747,6 +1743,7 @@ li {
   }
   .test {
     position: unset;
+    top: 15%;
   }
 }
 
