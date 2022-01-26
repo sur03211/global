@@ -1556,11 +1556,11 @@ li {
   transform: rotate(-18deg);
 }
 
-.jquery {
+.css {
   top: 88%;
   left: -6%;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   transform: rotate(6deg);
 }
 
