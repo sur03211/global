@@ -902,7 +902,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 960px;
+  width: 100%;
   max-width: 80%;
   height: 100%;
   -webkit-box-orient: vertical;
@@ -965,7 +965,7 @@ body {
 
 .work--lockup .slider--item-description {
   display: none;
-  max-width: 250px;
+  max-width: 260px;
   margin: 0 auto;
 }
 
@@ -1149,6 +1149,11 @@ body {
   .work--lockup .slider--next,
   .work--lockup .slider--prev {
     top: 105px;
+  }
+
+  .work--lockup .slider--item-left,
+  .work--lockup .slider--item-right {
+    display: none;
   }
 }
 
