@@ -1255,7 +1255,18 @@ body {
   left: 255px;
   width: 10px;
   height: 10px;
+  background-color: red;
+}
+
+.about--banner p::after {
+  content: "";
+  position: absolute;
+  top: 263px;
+  left: 405px;
+  width: 10px;
+  height: 10px;
   background-color: #0f33ff;
+  transform: rotate(45deg);
 }
 
 .p2 {
@@ -1283,17 +1294,17 @@ body {
     left: 260px;
   }
 
-  .about--banner h2 {
+  .about--banner h1 {
     margin-top: 10px;
     font-size: 44px;
   }
 
-  .about--banner h2::before {
+  .about--banner h1::before {
     top: 28px;
     left: 168px;
   }
 
-  .about--banner h2::after {
+  .about--banner h1::after {
     top: 163px;
     left: 163px;
   }
