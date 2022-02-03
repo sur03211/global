@@ -1528,7 +1528,8 @@ ul {
   padding-left: 0;
 }
 
-li {
+.tools li,
+.etc li {
   list-style: none;
 }
 
