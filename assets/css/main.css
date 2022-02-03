@@ -1191,11 +1191,15 @@ body {
 }
 
 .introduce {
-  font-size: 16px;
+  font-size: 17px;
 }
-
 .about--banner h1 {
-  font-size: 55px;
+  position: relative;
+  margin-top: 35px;
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 1;
+  z-index: 1;
 }
 
 @media (max-width: 1180px) {
@@ -1224,8 +1228,8 @@ body {
 .about--banner::after {
   content: "";
   position: absolute;
-  top: 75px;
-  left: 400px;
+  top: 9px;
+  left: 465px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   width: 10px;
@@ -1233,19 +1237,10 @@ body {
   background-color: red;
 }
 
-.about--banner h2 {
-  position: relative;
-  margin-top: 35px;
-  font-size: 68px;
-  font-weight: 900;
-  line-height: 1;
-  z-index: 1;
-}
-
-.about--banner h2::before {
+.about--banner h1::before {
   content: "";
   position: absolute;
-  top: 60px;
+  top: -65px;
   left: 268px;
   width: 30px;
   height: 30px;
@@ -1253,10 +1248,10 @@ body {
   border-radius: 50%;
 }
 
-.about--banner h2::after {
+.about--banner h1::after {
   content: "";
   position: absolute;
-  top: 255px;
+  top: 275px;
   left: 255px;
   width: 10px;
   height: 10px;
