@@ -1210,7 +1210,7 @@ body {
 
 .about--banner {
   position: relative;
-  height: 400px;
+  height: 300px;
 }
 
 .about--banner::before {
